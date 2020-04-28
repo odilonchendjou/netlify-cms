@@ -1,6 +1,6 @@
 ---
 title: Start width an exemple
-group: backends
+group: start
 weight: 8
 ---
 You can add Netlify CMS [to an existing site](/docs/add-to-your-site/), but the quickest way to get started is with a template.  Found below, our featured templates deploy a bare-bones site and Netlify CMS to Netlify ([what's the difference, you ask?](../intro/#netlify-cms-vs-netlify)), giving you a fully working CMS-enabled site with just a few clicks.
@@ -42,10 +42,18 @@ After clicking one of those buttons, authenticate with GitHub or GitLab and choo
 
 ## Access Netlify CMS on your new site
 
-1. The template deploy process sends you an invitation to your new site, sent from `no-reply@netlify.com`.
-   ![Sample email subject line: You've been invited to join radiologist-amanda-53841.netlify.com](https://www.netlifycms.org/img/email-subject.png?raw=true)
-2. Wait for the deployment to complete, then click the link to accept the invite. Your site will open with a prompt to create a password.
-   !["Complete your signup" modal on the Kaldi coffee site](https://www.netlifycms.org/img/create-password.png?raw=true)
+1. The template deploy process sends you an invitation to your new site, sent from `no-reply@netlify.com`.![Sample email subject line: You've been invited to join radiologist-amanda-53841.netlify.com](https://www.netlifycms.org/img/email-subject.png?raw=true)
+2. Wait for the deployment to complete, then click the link to accept the invite. Your site will open with a prompt to create a password. !["Complete your signup" modal on the Kaldi coffee site](https://www.netlifycms.org/img/create-password.png?raw=true)
+
+   ![]()
+
+   ```
+
+   ```
+
+   ![]()
+
+
 3. Enter a password, sign in, and you’ll go to the CMS. (For future visits, you can go straight to `<yoursiteaddress.com>/admin/`.)
 
 Try adding and editing posts, or changing the content of the Products page. When you save, the changes are pushed immediately to your Git repository, triggering a build on Netlify, and updating the content on your site. Check out the configuration code by visiting your site repo.
